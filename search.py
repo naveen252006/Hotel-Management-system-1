@@ -1,3 +1,4 @@
+
 rooms = ["Deluxe", "Suite", "Standard", "Executive"]
 def search_room(query):
     results = [room for room in rooms if query.lower() in room.lower()]
